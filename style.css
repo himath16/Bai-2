@@ -94,7 +94,9 @@ body {
 
         /* Đường kẻ phân cách .Line */
         .Line td {
-            padding: 10px 0;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-right: 40px;
         }
         .Line td hr {
             border: none;
