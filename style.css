@@ -92,7 +92,6 @@ body {
         }
         .Date-in, .Serial-in { width: 180px; }
 
-        /* Đường kẻ phân cách .Line */
         .Line td {
             padding-top: 12px;
             padding-bottom: 12px;
@@ -121,7 +120,7 @@ body {
         }
 
         .comments {
-            width: 420px;
+            width: 400px;
             height: 110px;
             box-sizing: border-box;
             resize: none;
