@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackson Electron</title> 
+    <link rel="stylesheet" href="bai.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+            <div class="top-logo">Jackson</div>
+            <div class="bot-logo">Electronics</div>
+        </div>
+
+        <h2>Registration Form</h2>
+        <div class="intro">Register your Jackson Electronics product here</div>
+
+        <!-- Form layout bằng table 100% -->
+        <form>
+            <table class="begin-tablet">
+                <tr>
+                    <td class="tablet">First Name:</td>
+                    <td>
+                        <input type="text" class="name_in">
+                        <span class="last-name" style="font-weight: normal;">Last Name:</span>
+                        <input type="text" class="name_in2">
+                    </td>
+                </tr>
+
+                <!-- Address #1 -->
+                <tr>
+                    <td class="tablet">Address #1:</td>
+                    <td><input type="text" class="Address-in"></td>
+                </tr>
+
+                <!-- Address #2 -->
+                <tr>
+                    <td class="tablet">Address #2:</td>
+                    <td><input type="text" class="Address-in"></td>
+                </tr>
+
+                <!-- City, State, Zip -->
+                <tr>
+                    <td class="tablet">City:</td>
+                    <td>
+                        <input type="text" class="City-in">
+                        <span class="state-label2">State:</span>
+                        <input type="text" class="State-in">
+                        <span class="state-tablet3">Zip:</span>
+                        <input type="text" class="Zip-in">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tablet">Country:</td>
+                    <td><input type="text" class="Country-in" value="United States"></td>
+                </tr>
+
+                <tr class="Line">
+                    <td colspan="2"><hr></td>
+                </tr>
+
+                <tr>
+                    <td class="tablet">Product:</td>
+                    <td>
+                        <select class="Product-in">
+                            <option>ScanMaster</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <!-- Date Purchased -->
+                <tr>
+                    <td class="tablet">Date Purchased:</td>
+                    <td><input type="text" class="Date-in"></td>
+                </tr>
+
+                <!-- Serial # -->
+                <tr>
+                    <td class="tablet">Serial #:</td>
+                    <td><input type="text" class="Serial-in"></td>
+                </tr>
+
+                <!-- Used for -->
+                <tr>
+                    <td class="tablet" style="vertical-align: top; padding-top: 4px;">Used for:</td>
+                    <td>
+                        <table style="border-collapse: collapse; width: 100%;">
+                            <tr>
+                                <td style="width: 170px;"><label><input type="radio" name="used_for"> Home</label></td>
+                                <td><label><input type="radio" name="used_for"> Educational Institution</label></td>
+                            </tr>
+                            <tr>
+                                <td><label><input type="radio" name="used_for" checked> Business</label></td>
+                                <td><label><input type="radio" name="used_for"> Other</label></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><label><input type="radio" name="used_for"> Government</label></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <!-- System (check all that apply) -->
+                <tr>
+                    <td class="tablet2" style="vertical-align: top; padding-top: 4px;">System (check all that apply):</td>
+                    <td>
+                        <table style="border-collapse: collapse; width: 100%;">
+                            <tr>
+                                <td style="width: 170px;"><label><input type="checkbox"> Windows</label></td>
+                                <td><label><input type="checkbox"> UNIX</label></td>
+                            </tr>
+                            <tr>
+                                <td><label><input type="checkbox"> Macintosh</label></td>
+                                <td><label><input type="checkbox"> Other</label></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <!-- Line 2 -->
+                <tr class="Line">
+                    <td colspan="2"><hr></td>
+                </tr>
+
+                <!-- Comments -->
+                <tr>
+                    <td class="tablet3" style="vertical-align: top; padding-top: 4px;">Comments?:</td>
+                    <td>
+                        <textarea class="comments"></textarea>
+                    </td>
+                </tr>
+
+                <!-- Buttons -->
+                <tr>
+                    <td colspan="2">
+                        <div class="button">
+                            <button type="submit">Click to register</button>
+                            <button type="reset">Click to cancel</button>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

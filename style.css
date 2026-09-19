@@ -1,0 +1,147 @@
+body {
+        background-color: #ffffff;
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center; 
+    }
+    .container {
+            width: 700px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            background-color: #97d0ff;
+            padding: 20px 40px 25px;
+            height: 874px;
+        }
+        .logo {
+            width: 280px;
+            margin: 0 auto 20px;
+            text-align: center;
+            border: 2px solid black;
+            box-shadow: 8px 8px 0px #86A5BD;
+            overflow: hidden;
+            border-radius: 18px;
+            font-family: "Times New Roman", Times, serif;
+        }
+        .top-logo {
+            background-color: aqua;
+            border-bottom: 5px solid black;
+            padding: 6px 10px;
+            font-size: 42px;
+            font-weight: bold;
+        }
+        .bot-logo {
+            background-color: aqua;
+            padding: 4px 10px;
+            font-size: 42px;
+            font-weight: bold;
+        }
+        h2 {
+            text-align: center;
+            font-size: 32px;
+            margin: 10px 0 5px;
+        }
+        .intro {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+        .begin-tablet {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 17px;
+        }
+        .begin-tablet td {
+            padding: 5px 0;
+            vertical-align: middle;
+        }
+        .tablet, .tablet2, .tablet3 {
+            width: 220px;
+            font-weight: 750px;
+            white-space: nowrap;
+            padding-left: 50px;
+            text-align: left;
+        }
+
+        input[type="text"] {
+            height: 22px;
+            border: 1px solid #7d9aaa;
+            background-color: white;
+            font-size: 16px;
+            font-family: "Times New Roman", Times, serif;
+            box-sizing: border-box;
+        }
+        .name_in { width: 160px; }
+        .name_in2 { width: 140px; }
+        .last-name { font-weight: bold; margin: 0; }
+
+        .Address-in { width: 260px; }
+        .City-in { width: 170px; }
+        .State-in { width: 45px; }
+        .Zip-in { width: 85px; }
+
+        .state-label2 { font-weight: normal; margin: 0; }
+        .state-tablet3 { font-weight: normal; margin: 0; }
+
+        .Country-in { width: 180px; }
+        .Product-in {
+            width: 140px;
+            height: 24px;
+            font-size: 15px;
+            font-family: "Times New Roman", Times, serif;
+        }
+        .Date-in, .Serial-in { width: 180px; }
+
+        /* Đường kẻ phân cách .Line */
+        .Line td {
+            padding: 12px 0;
+        }
+        .Line td hr {
+            border: none;
+            border-top: 1.5px solid black;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        input[type="radio"] {
+            width: 15px;
+            height: 15px;
+            margin: 0 4px 0 0;
+            vertical-align: middle;
+            accent-color: green;
+        }
+        input[type="checkbox"] {
+            width: 15px;
+            height: 15px;
+            margin: 0 4px 0 0;
+            vertical-align: middle;
+            accent-color: blue;
+        }
+
+        .comments {
+            width: 420px;
+            height: 110px;
+            box-sizing: border-box;
+            resize: none;
+            font-size: 16px;
+            font-family: "Times New Roman", Times, serif;
+            border: 1px solid #bcd2de;
+        }
+
+        .button {
+            text-align: center;
+            padding-top: 15px;
+        }
+
+        button[type="submit"], button[type="reset"] {
+            min-width: 120px;
+            height: 25px;
+            font-size: 14px;
+            font-family: "Times New Roman", Times, serif;
+            cursor: pointer;
+            margin: 0 4px;
+            background-color: #f0f0f0;
+            border: 1px solid #707070;
+        }
+
